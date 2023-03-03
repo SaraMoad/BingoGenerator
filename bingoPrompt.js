@@ -1,5 +1,6 @@
-export const bingoPrompts = {
+export const bingoPrompts =
     [
-        
+        "da",
+        daw,
+
     ]
-}
