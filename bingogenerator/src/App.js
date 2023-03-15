@@ -4,20 +4,21 @@ import BingoGrid from './components/BingoCard';
 import bingoGenerator from './components/BingoGenerator';
 import RegenerateButton from './components/RegenerateButton'
 
-
 const App = () => {
-  const [bingoprompts, SetBingoPrompts] = useState([]);
   
-  const Onregenerate = () => {
-    SetBingoPrompts(bingoGenerator())
+  const [bingoPrompts, setBingoPrompts] = useState([]);
+  
+  const handleGeneration = () => {
+    setBingoPrompts(bingoGenerator())
   }
-  console.log(bingoprompts)
+  console.log(bingoPrompts)
 
   return (
     <div className="App">
       <header className="App-header">
-        <BingoGrid bingoprompts={bingoprompts} />
-        <RegenerateButton regenerate={Onregenerate} />
+        <BingoGrid bingoPrompts={bingoPrompts} />
+        <RegenerateButton regenerate={handleGeneration}
+         />
       </header>
     </div>
   );
