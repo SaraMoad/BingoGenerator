@@ -3,20 +3,18 @@ import BingoSquare from "./bingoSquare";
 
 
 
-const BingoGrid= ({ bingoprompts }) => {
+const BingoGrid = ({ bingoPrompts }) => {
+    console.log({ bingoPrompts })
     return (
-            <>
+    <>
         <div className="container">
-                <Instructions />
-                {bingoprompts.map((prompt, i) => {
-            console.log(bingoprompts[i], i);
-            return (
-                <BingoSquare
-                    key={i}
-                    value={bingoprompts[i]} />
-            );
+                {/* <Instructions /> */}
+                {bingoPrompts.map((prompt, i) => {
+            return <BingoSquare key={i} value={prompt} />
+        
         })}
-        </div></>
+            </div>
+    </>
     );   
 }
 
