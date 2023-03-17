@@ -17,8 +17,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <BingoGrid bingoPrompts={bingoPrompts} />
-        <RegenerateButton regenerate={handleGeneration}
-         />
+        <RegenerateButton regenerate={handleGeneration} />
       </header>
     </div>
   );
