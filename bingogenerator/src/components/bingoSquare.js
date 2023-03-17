@@ -1,14 +1,14 @@
 import React from "react";
+import '../style.css'
 
 const BingoSqaure = ({ value }) => {
-    console.log({ value })
     return (
-        <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
-            <div>
+        <div className='zone'>
                 <p>{value}</p>
-            </div>
         </div>
     );
 };
 
 export default BingoSqaure;
+
+//'tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'
