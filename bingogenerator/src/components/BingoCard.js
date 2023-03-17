@@ -1,17 +1,16 @@
 import React from "react";
 import BingoSquare from "./bingoSquare";
-
+import Instructions from "./Instructions/instructions";
+import '../style.css'
 
 
 const BingoGrid = ({ bingoPrompts }) => {
-    console.log({ bingoPrompts })
     return (
     <>
         <div className="container">
-                {/* <Instructions /> */}
+                <Instructions />
                 {bingoPrompts.map((prompt, i) => {
-            return <BingoSquare key={i} value={prompt} />
-        
+             return <BingoSquare key={i} value={prompt} />
         })}
             </div>
     </>
