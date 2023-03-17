@@ -1,1 +1,14 @@
 /* Make a css file that in a container for the string of instructions */
+
+.textbox {
+    display: inline-grid;
+    align-items: center;
+    font-size: 0.7em;
+    /* border-radius: 4px; */
+    border: 2px solid #020202;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: rgb(65, 146, 65);
+    /* grid-template-columns: repeat(1, minmax(50px, 1fr));
+    grid-template-rows: repeat(1, minmax(100px, 1fr)); */
+}
