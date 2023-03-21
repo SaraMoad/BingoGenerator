@@ -1,0 +1,1 @@
+// Add a Checkbox component that adds location prompts to the bingo generator and the prompt list when ticked. 
