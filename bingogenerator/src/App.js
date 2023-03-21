@@ -1,8 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
-import BingoGrid from './components/BingoCard';
-import bingoGenerator from './components/BingoGenerator';
-import RegenerateButton from './components/RegenerateButton'
+import BingoGrid from './components/bingoCard/BingoCard';
+import bingoGenerator from './components/bingoCard/BingoGenerator'
+import RegenerateButton from './components/bingoCard/RegenerateButton'
 import { bingoPrompts } from './data/bingoPrompt';
 
 const orignalPrompts = bingoPrompts
@@ -23,7 +23,7 @@ const App = () => {
       <header className="App-header">
         <BingoGrid bingoPrompts={bingoPrompts} />
         <RegenerateButton regenerate={handleGeneration} />
-        <PromptList bingoPrompts={bingoPrompts} usedPrompts={usedPrompts} />
+        {/* <PromptList bingoPrompts={bingoPrompts} usedPrompts={usedPrompts} /> */}
       </header>
     </div>
   );
