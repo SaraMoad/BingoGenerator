@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BingoGenerator/static/css/main.ac2abb6e.css",
+    "main.js": "/BingoGenerator/static/js/main.338bcd27.js",
+    "static/js/787.77ca4951.chunk.js": "/BingoGenerator/static/js/787.77ca4951.chunk.js",
+    "index.html": "/BingoGenerator/index.html",
+    "main.ac2abb6e.css.map": "/BingoGenerator/static/css/main.ac2abb6e.css.map",
+    "main.338bcd27.js.map": "/BingoGenerator/static/js/main.338bcd27.js.map",
+    "787.77ca4951.chunk.js.map": "/BingoGenerator/static/js/787.77ca4951.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac2abb6e.css",
+    "static/js/main.338bcd27.js"
+  ]
+}
