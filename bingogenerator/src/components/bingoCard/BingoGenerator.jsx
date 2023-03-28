@@ -1,10 +1,10 @@
 import { bingoPrompts } from "../../data/bingoPrompt";
 
+// still need to fix for when I make it possible to add your own prompts to the list. 
 let usedOptions = [];
 let check = 0;
 
 const BingoGenerator = () => {
-    // const [refreshedPrompts, SetRefreshedPrompts] = useState(bingoPrompts)
     let optionsArray = bingoPrompts
     const currentBingoOptions = []
     const seperatingOptionsArray = optionsArray.length - 4
