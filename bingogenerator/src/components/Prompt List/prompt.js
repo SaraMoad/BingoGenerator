@@ -1,6 +1,6 @@
 
 
-const Prompt = () => {
+const Prompt = (bingoPrompts, usedPrompts) => {
 
 }
 

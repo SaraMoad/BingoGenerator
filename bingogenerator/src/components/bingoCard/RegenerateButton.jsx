@@ -4,7 +4,8 @@ import Button from '@mui/material/Button';
 
 const RegenerateButton = ({ regenerate }) => {
   return (
-    <Button sx={{ margin: '10px' }} color="success" variant="contained" onClick={regenerate}>
+    <Button sx={{ margin: '10px', backgroundColor: "#6BC06F"}}  variant = "contained" onClick = { regenerate } onHover={{backgroundColor:"#6BC06F"
+}} >
       GENERATE
     </Button>
   );
